@@ -1,0 +1,228 @@
+﻿@model OrderVM
+@{
+    decimal totalprice = 0;
+}
+
+<div class="bg-white">
+    <div class="container-sm container-fluid">
+        <div class="row">
+            <!-- Left-Side -->
+            <div class="col-lg-7 col-12 pt-5 border-end">
+                <a class="text-decoration-none text-black " href="/home/index">
+                    <span class="fs-3">Boake</span>
+                </a>
+                <!-- Mobile-Accordion -->
+                @* <div class="accordion-items d-sm-none d-block">
+                    <div class="accordion-heading">
+                    <!-- Click-Accordion-Area -->
+                    <div class="bg-grey3 accordion-check py-3">
+                    <div class="d-flex justify-content-between">
+                    <span class="text-fusion">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Show order summary
+                    <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                    <span>$218.50</span>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="accordion-content">
+                    <!-- Basket-Details-Mobile -->
+                    <div class="col-lg-5 panel-check px-4 pt-5 d-sm-none d-block">
+                    <!-- Basket-products -->
+                    <div class="basket-products pb-4 border-bottom">
+                    @foreach (var item in Model.BasketItems)
+                    {
+                    <span style="display:none">@(totalprice += item.Book.CampaignId == null ? item.Count * item.Book.Price : item.Count * item.Book.Price * (100 - item.Book.Campaign.DiscountPercent) / 100)</span>
+                    <div class="single-basket-product">
+                    <div class="row align-items-center pt-3">
+                    <div class="col-lg-2 col-3">
+                    <div class="position-relative d-inline-block">
+                    <img src="~/assets/img/feature-collection/@item.Book.ImageUrl" class="border  w-100 br-5"
+                    alt="">
+                    <!-- Product count in basket -->
+                    <div class="checkout-count">
+                    <span>@item.Count</span>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-5 col-5 text-start">
+                    <span class="d-inline-block ps-3 ">
+                    @item.Book.Name
+                    </span>
+                    </div>
+                    <div class="col-lg-4 col-4">
+                    <span class="">$
+                    @if (item.Book.CampaignId==null)
+                    {
+                    @(item.Book.Price * item.Count)
+                    }else
+                    {
+                    @(((item.Book.Price * (100 - item.Book.Campaign.DiscountPercent) / 100) * item.Count))
+                    }
+                    </span>
+                    </div>
+                    </div>
+                    </div>
+                    }
+                    </div>
+                    <!-- Moneyline -->
+                    <div class="moneyline pt-3">
+                    <div class="subtotal d-flex align-items-center justify-content-between">
+                    <span>Subtotal</span>
+                    <span>$190.00</span>
+                    </div>
+                    <div class="subtotal pt-3 d-flex align-items-center justify-content-between">
+                    <span>Shipping</span>
+                    <span style="font-size: 11px;">Calculated at next step</span>
+                    </div>
+                    <div class="estimated-taxes border-bottom pb-3 d-flex align-items-center justify-content-between pt-3">
+                    <span class="">
+                    Estimated taxes
+                    <i class="fa-solid fa-circle-question"></i>
+                    </span>
+                    <span>$28.50</span>
+                    </div>
+                    <!-- Total -->
+                    <div class="total pt-3 d-flex justify-content-between align-items-center">
+                    <span>Total</span>
+                    <span>
+                    <span style="font-size: 12px;" class="text-grey">USD</span>
+                    <span class="fs-4 ps-2 fw-semibold">$@totalprice</span>
+                    </span>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>*@
+                <!-- Breadcrumb-Area -->
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="pt-4">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#" class="text-decoration-none text-fusion t-5">Cart</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <span class="fw-semibold">Information</span>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <span class="">Shipping</span>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <span class="">Payment</span>
+                        </li>
+                    </ol>
+                </div>
+                <!-- Contact Information -->
+                <div class="contact-information pt-4">
+                    <h4 class="fw-light work-sans">Contact Information</h4>
+                    <!-- Name and Surname -->
+                    <span class="">@User.Identity.Name</span>
+                    <!-- Log out -->
+                    <div class="">
+                        <a href="/account/logout" class="text-fusion text-decoration-none">Log out</a>
+                    </div>
+
+                </div>
+                <!-- Shipping address -->
+                <div class="pt-5">
+                    <form method="post">
+                        <h4 class="fw-light">Shipping address</h4>
+                        <div class="pt-2">
+                            <input asp-for="@Model.Email" class="w-100 py-2 br-5 border ps-2" style="outline: none;" placeholder="Email address">
+                            <input asp-for="@Model.CountryRegion" class="w-100 mt-3 py-2 br-5 border ps-2" style="outline: none;" placeholder="Country/Region">
+                            <div class="d-flex  mt-3">
+                                <input asp-for="@Model.Firstname" class="w-50 py-2 br-5 border ps-2" style="outline: none;" placeholder="First name (optional)">
+                                <input asp-for="@Model.Lastname" class="w-50 ms-3 py-2 br-5 border ps-2" style="outline: none;" placeholder="Last name ">
+                            </div>
+                            <input asp-for="@Model.Address" class="w-100 py-2 mt-3 br-5 border ps-2" placeholder="Address" id="">
+                            <input asp-for="@Model.Apartment" class="w-100 mt-3 py-2 br-5 border ps-2" placeholder="Apartment, suite, etc. (optional)" id="">
+                            <!-- City, State, Zip code,  -->
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <input asp-for="@Model.City" class="w-100 mt-3 py-2 br-5 border ps-2" placeholder="City" id="">
+                                </div>
+                                <div class="col-lg-4">
+                                    <input asp-for="@Model.State" class="w-100 mt-3 py-2 br-5 border ps-2" placeholder="State" id="">
+                                </div>
+                                <div class="col-lg-4">
+                                    <input asp-for="@Model.ZipCode" class="w-100 mt-3 py-2 br-5 border ps-2" placeholder="ZIP code" id="">
+                                </div>
+                            </div>
+                            <!-- Continue to shipping -->
+                            <div class="d-flex border-bottom py-4  align-items-center justify-content-between">
+                                <a href="/basket/index" class="text-decoration-none text-fusion">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                    <span class="">Return to cart</span>
+                                </a>
+                                <button type="submit" class="btn btn-danger t-5 border-0 text-white px-4 py-3 " style="outline: none;">Confirm to shipping</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Right-Side -->
+            <div class="col-lg-5 d-sm-block d-none px-4 pt-5">
+                <!-- Basket-products -->
+                <div class="basket-products pb-4 border-bottom">
+                    @foreach (var item in Model.BasketItems)
+                    {
+                        <span style="display:none">@(totalprice += item.Book.CampaignId == null ? item.Count * item.Book.Price : item.Count * item.Book.Price * (100 - item.Book.Campaign.DiscountPercent) / 100)</span>
+
+                        <div class="single-basket-product">
+                            <div class="row align-items-center pt-3">
+                                <div class="col-lg-2 col-3">
+                                    <div class="position-relative d-inline-block">
+                                        <img src="~/assets/img/feature-collection/@item.Book.ImageUrl" class="border  w-100 br-5"
+                                             alt="">
+                                        <!-- Product count in basket -->
+                                        <div class="checkout-count">
+                                            <span>@item.Count</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-5 text-start">
+                                    <span class="d-inline-block ps-3 ">
+                                        @item.Book.Name
+                                    </span>
+                                </div>
+                                <div class="col-lg-4 col-4">
+                                    <span class="">
+                                        $@if (item.Book.CampaignId == null)
+                                        {@(item.Book.Price * item.Count) }
+                                        else
+                                        { @(((item.Book.Price * (100 - item.Book.Campaign.DiscountPercent) / 100) * item.Count))}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>}
+                </div>
+                <!-- Moneyline -->
+                <div class="moneyline pt-3">
+                    <div class="subtotal d-flex align-items-center justify-content-between">
+                        <span>Subtotal</span>
+                        <span>$@totalprice</span>
+                    </div>
+                    <div class="subtotal pt-3 d-flex align-items-center justify-content-between">
+                        <span>Shipping</span>
+                        <span style="font-size: 11px;">Calculated at next step</span>
+                    </div>
+                    @* <div class="estimated-taxes border-bottom pb-3 d-flex align-items-center justify-content-between pt-3">
+                            <span class="">
+                                Estimated taxes
+                                <i class="fa-solid fa-circle-question"></i>
+                            </span>
+                            <span>$28</span>
+                        </div>*@
+                    <!-- Total -->
+                    <div class="total pt-3 d-flex justify-content-between align-items-center">
+                        <span>Total</span>
+                        <span>
+                            <span style="font-size: 12px;" class="text-grey">USD</span>
+                            <span class="fs-4 ps-2 fw-semibold">$@(totalprice)</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

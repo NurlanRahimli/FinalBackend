@@ -1,0 +1,42 @@
+﻿@model List<ProductType>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/AdminArea/Views/Shared/_AdminLayout.cshtml";
+    int counter = 0;
+}
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-secondary rounded h-100 p-4">
+                <h6 class="mb-4">Basic Table</h6>
+                <a asp-area="AdminArea" asp-controller="Type" asp-action="Create" class="btn btn-success">Create</a>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">ProductType Name</th>
+                            <th scope="col">Delete</th>
+                            <th scope="col">Update</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            counter++;
+                            <tr>
+                                <th scope="row">@counter</th>
+                                <td>@item.Name</td>
+                                <td><a asp-area="adminarea" asp-controller="Type" asp-action="delete" asp-route-id="@item.Id" class="btn btn-danger  ">Delete</a></td>
+                                <td><a asp-area="adminarea" asp-controller="Type" asp-action="edit" asp-route-id="@item.Id" class="btn btn-warning  ">Edit</a></td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

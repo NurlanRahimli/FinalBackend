@@ -1,0 +1,39 @@
+﻿@model List<Book>
+@foreach (var item in Model)
+{
+
+    <div class="col-lg-4 col-6 pt-4">
+        <div class="input-border me-4 position-relative ">
+            <a href="/shop/detail/@item.Id">
+                <img src="~/assets/img/feature-collection/@item.ImageUrl" class="w-100" alt="">
+            </a>
+            <h4 class="title fs-6 fs-sm-12 fs-sm-12 ls-1">
+                <a href="/shop/detail/@item.Id" class="text-decoration-none text-white  ps-3 work-sans hover2 t-5 geometric">@item.Name</a>
+            </h4>
+            <span class="price">
+                <span class="money text-fusion ps-3 fw-bold fs-4" data-currency-usd="$39.00">@item.Price</span>
+            </span>
+            <span class="stars ps-3 pt-2 pb-3 d-block">
+                <i class="fa-regular fa-star text-yellow"></i>
+                <i class="fa-regular fa-star text-yellow"></i>
+                <i class="fa-regular fa-star text-yellow"></i>
+                <i class="fa-regular fa-star text-yellow"></i>
+                <i class="fa-regular fa-star text-yellow"></i>
+            </span>
+            <div class="ht-product-action ">
+                <ul class="list-unstyled d-flex align-items-center justify-content-center pt-3">
+                    <li class=" ">
+                        <a href="#" class="text-decoration-none hover2 t-5 text-white" data-modal>
+                            <i class="fas fa-search fs-4" style="cursor: pointer;"></i>
+                        </a>
+                    </li>
+                    <li class="ps-4 ">
+                        <a href="/basket/addbasket/@item.Id" class="text-decoration-none hover2 t-5 text-white">
+                            <i class="las la-shopping-bag fs-4" style="cursor: pointer;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+}

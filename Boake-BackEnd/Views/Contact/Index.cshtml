@@ -1,0 +1,70 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!--====== Breadcrumb-Area Start ======-->
+
+<section class="breadcrumb-area py-5 py-sm-0">
+    <div class=" bg-shade text-center py-4">
+        <a asp-controller="home" asp-action="index" class="  text-decoration-none text-white work-sans hover2 t-5">HOME </a>
+        <span class=" text-white">/</span>
+        <span class=" text-white work-sans">CONTACT</span>
+    </div>
+</section>
+
+<!--====== Breadcrumb-Area End ======-->
+<!--====== Contact-Area Start ======-->
+<div class="contact-area py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-12">
+                <h2 class="text-white geometric ls-1 fw-semibold pb-sm-5 pb-2 ">Contact</h2>
+                <div class="single-contact-info  ">
+                    <div class="contact-info ">
+                        <i class="las la-map-marker-alt text-white  fs-1"></i>
+                    </div>
+                    <div class="contact-info-content ps-4  text-white ">
+                        <p class="work-sans mt-3">Address goes here, street, Crossroad 123.</p>
+                    </div>
+                </div>
+                <div class="single-contact-info mt-2  ">
+                    <div class="contact-info d-inline-block">
+                        <i class="las la-envelope fs-1 text-white "></i>
+                    </div>
+                    <div class="contact-info-content ps-4 d-inline-block text-white ">
+                        <p class="work-sans mt-3">info@example.com / info@example.com</p>
+                    </div>
+                </div>
+                <div class="single-contact-info mt-2  ">
+                    <div class="contact-info d-inline-block">
+                        <i class="las la-map-marker-alt text-white  fs-1"></i>
+                    </div>
+                    <div class="contact-info-content ps-4 d-inline-block text-white ">
+                        <p class="work-sans mt-3">+1 35 776 859 000 / +1 35 776 859 011</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 ">
+                <div class="contact-form ">
+                    <form method="post">
+                        <input asp-for="Name" placeholder="Name" class="border  w-100 bg-transparent text-white py-3 ps-3" id="">
+                        <input asp-for="Email" placeholder="Email" class="border mt-3 w-100 bg-transparent text-white py-3 ps-3" id="">
+                        <input asp-for="Subject" placeholder="Subject" class="border mt-3 w-100 bg-transparent text-white py-3 ps-3" id="">
+                        <textarea asp-for="Message" class="w-100 py-4 border mt-3 bg-transparent text-white"></textarea>
+                        <button type="submit" class="w-100 text-white bg-grey2 hover3  t-5 py-3 mt-3 work-sans fw-semibold border-0" style="outline: none;">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Map-Area Start -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12149.579732182812!2d49.80198286041856!3d40.42225307854258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403087b9c663cdbd%3A0x3f25195eefaed750!2s9th%20Microdistrict%2C%20Baku%2C%20Azerbaijan!5e0!3m2!1sen!2s!4v1673114000488!5m2!1sen!2s"
+                width="" class="w-100" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Map-Area End -->
+
+    </div>
+</div>
+<!--====== Contact-Area End ======-->

@@ -1,0 +1,45 @@
+﻿@model Slider
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Areas/AdminArea/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-secondary rounded h-100 p-4">
+                <h6 class="mb-4">Basic Table</h6>
+                <a asp-area="AdminArea" asp-controller="Slider" asp-action="Create" class="btn btn-success">Create</a>
+                <table class="table">
+                    <thead>
+                        <tr>
+
+                            <th scope="col">Image</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Header</th>
+                            <th scope="col">Delete</th>
+                            <th scope="col">Detail</th>
+                            <th scope="col">#</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+
+                            <td><img style="width:100px;" src="~/assets/img/Slider/@Model.ImageUrl" /></td>
+                            <td>@Model.Title</td>
+
+                            <td>@Model.Header</td>
+                            <td><a asp-area="adminarea" asp-controller="Slider" asp-action="delete" asp-route-id="@Model.Id" class="btn btn-danger  ">Delete</a></td>
+                            <td><a asp-area="adminarea" asp-controller="Slider" asp-action="edit" asp-route-id="@Model.Id" class="btn btn-warning  ">Edit</a></td>
+                            <td><a asp-area="adminarea" asp-controller="Slider" asp-action="index" class="btn btn-warning  ">Back</a></td>
+
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

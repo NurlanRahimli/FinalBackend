@@ -1,0 +1,106 @@
+﻿@model Bio
+<footer>
+    <div class="pt-5" style="background-image: url(assets/img/banner/banner.png);overflow: hidden;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <a asp-controller="home" asp-action="index">
+                        <img src="~/assets/img/@Model.WhiteLogoMedium" alt="">
+                    </a>
+                    <div class="subscribe-style pt-3 pb-sm-5 pb-3">
+                        <p class="text-white work-sans w-sm-75 w-100">@Model.Description</p>
+                    </div>
+                    <div class="footer-socials text-center text-sm-start">
+                        <a href="@Model.Facebook" target="_blank" class="text-decoration-none text-white fs-4 work-sans hover2 t-5 ">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="@Model.Twitter" target="_blank" class="text-decoration-none text-white fs-4 work-sans hover2 t-5 ps-4">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="@Model.Instagram" target="_blank" class="text-decoration-none text-white fs-4 work-sans hover2 t-5 ps-4">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="@Model.YouTube" target="_blank" class="text-decoration-none text-white fs-4 work-sans hover2 t-5 ps-4">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="@Model.Pinterest" target="_blank" class="text-decoration-none text-white fs-4 work-sans hover2 t-5 ps-4">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6 pt-4">
+                    <div class="ms-sm-4 ms-0 ">
+                        <div class="footer-title ">
+                            <h5 class="text-white geometric ls-1 ms-3">Information</h5>
+                        </div>
+                        <div class="footer-list pt-4">
+                            <ul type="circle" class="text-white">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+
+                                    <li><a asp-controller="account" asp-action="index" class=" text-decoration-none text-white hover2 t-5 work-sans">My account</a></li>
+                                }
+                                else
+                                {
+                                    <li><a asp-controller="account" asp-action="login" class=" text-decoration-none text-white hover2 t-5 work-sans">Login</a></li>
+
+                                }
+                                <li class="pt-3"><a asp-controller="about" asp-action="index" class=" text-decoration-none text-white hover2 t-5 work-sans">About us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6 pt-4">
+                    <div class="ms-sm-4 ms-0">
+                        <div class="footer-title ">
+                            <h5 class="text-white geometric ls-1 ms-3">Quick Links</h5>
+                        </div>
+                        <div class="footer-list pt-4">
+                            <ul type="circle" class="text-white">
+                                <li><a href="#" class=" text-decoration-none text-white hover2 t-5 work-sans">New collection</a></li>
+                                <li class="pt-3"><a asp-controller="about" asp-action="index" class=" text-decoration-none text-white hover2 t-5 work-sans">Manufacturers</a></li>
+                                <li class="pt-3"><a href="" class=" text-decoration-none text-white hover2 t-5 work-sans">New Products</a></li>
+                                <li class="pt-3"><a href="" class=" text-decoration-none text-white hover2 t-5 work-sans">Suppliers</a></li>
+                                <li class="pt-3"><a href="" class=" text-decoration-none text-white hover2 t-5 work-sans">Delivery & returns</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6 pt-4">
+                    <div class="ms-sm-4 ms-0">
+                        <div class="footer-title ">
+                            <h5 class="text-white geometric ls-1 ms-3">Information3</h5>
+                        </div>
+                        <div class="footer-list pt-4">
+                            <ul type="circle" class="text-white">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <li><a asp-controller="account" asp-action="index" class=" text-decoration-none text-white hover2 t-5 work-sans pb-3">My account</a></li>
+                                }
+                                <li class=""><a asp-controller="about" asp-action="index" class=" text-decoration-none text-white hover2 t-5 work-sans">About us</a></li>
+                                <li class="pt-3"><a href="" class=" text-decoration-none text-white hover2 t-5 work-sans">Wish List</a></li>
+                                <li class="pt-3"><a href="" class=" text-decoration-none text-white hover2 t-5 work-sans">Returns</a></li>
+                                <li class="pt-3"><a href="" class=" text-decoration-none text-white hover2 t-5 work-sans">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        @*     <div class="footer-bottom mt-4 py-3">
+            <div class="container ">
+            <div class="row align-items-center">
+            <div class="col-lg-6 col-12">
+            <p class="text-white work-sans ">Copyright Boake | Built with Boake by HasThemes.</p>
+            </div>
+            <div class="col-lg-6 col-12 text-sm-end text-center">
+            <a href="">
+            <img src="~/assets/img/footer-cards.png" alt="">
+            </a>
+            </div>
+            </div>
+            </div>
+            </div>*@
+    </div>
+</footer>

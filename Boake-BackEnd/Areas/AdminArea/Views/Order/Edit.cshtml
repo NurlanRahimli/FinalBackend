@@ -1,0 +1,124 @@
+﻿@model Order
+@{
+    ViewData["Title"] = "Edit";
+}
+
+ 
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-secondary rounded h-100 p-4">
+                <h6 class="mb-4">Basic Table</h6>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Surname</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Country</th>
+                            <th scope="col">State</th>
+                            <th scope="col">Adress</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Total</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>@Model.AppUser.Firstname</td>
+                            <td>@Model.AppUser.Lastname</td>
+                            <td>@Model.AppUser.Email</td>
+                            <td>@Model.CountryRegion</td>
+                            <td>@Model.State</td>
+                            <td>@Model.Address</td>
+                            <td>@Model.Date.ToString("dddd, dd MMMM yyyy HH:mm")</td>
+                            @if (Model.Status == null)
+                            {
+                                <td>Gozlenilir</td>
+
+                            }
+                            else if (Model.Status == true)
+                            {
+                                <td>Qebuledilib</td>
+
+                            }
+                            else
+                            {
+                                <td>Redd edildi</td>
+
+                            }
+                            <td>@Model.TotalPrice</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Orders</h3>
+                <ul>
+                    @foreach (OrderItem item in Model.OrderItems)
+                    {
+                        <li>
+                            @item.Name
+                        </li>
+                        <li>
+                            $@item.Price
+                            <hr />
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <h4>Message</h4>
+
+        <form method="post">
+            <div class="mb-3">  
+                <input class="Message" cols="60" class="form-control" rows="10" />
+            </div>
+        </form>
+        <div>
+            <a asp-controller="order" asp-action="Accept" asp-route-id="@Model.Id" class="accept btn btn-success btn-icon-text">
+                <i class="mdi mdi-file-check btn-icon-append"></i>
+                Qəbul et
+            </a>
+            <a asp-controller="order" asp-action="Reject" asp-route-id="@Model.Id" class="reject btn btn-danger btn-icon-text">
+                <i class="mdi mdi-file-check btn-icon-append"></i>
+                Rədd et
+            </a>
+        </div>
+    </div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".accept").click(function (e) {
+            e.preventDefault();
+            var message = $(".Message").val();
+            var link = $(this).attr("href") + "/?message=" + message
+            fetch(link).then(res => res.json()).then(data => {
+                if (data.status == 200) {
+                    location.href = "https://localhost:44320/adminarea/order"
+                } else {
+
+                }
+            })
+        })
+        $(".reject").click(function (e) {
+            e.preventDefault();
+            var message = $(".Message").val();
+            var link = $(this).attr("href") + "/?message=" + message
+            fetch(link).then(res => res.json()).then(data => {
+                if (data.status == 200) {
+                    location.href = "https://localhost:44320/adminarea/order"
+                } else {
+                }
+            })
+        })
+    })
+</script>

@@ -1,0 +1,59 @@
+﻿@model LoginVM
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<section class="breadcrumb-area py-5 py-sm-0">
+    <div class=" bg-shade text-center py-4">
+        <a asp-controller="home" asp-action="index" class="  text-decoration-none text-white work-sans hover2 t-5">HOME </a>
+        <span class=" text-white">/</span>
+        <span class=" text-white work-sans">LOGIN</span>
+    </div>
+</section>
+
+<!--====== Breadcrumb-Area End ======-->
+<!--====== Login-Area Start ======-->
+<div class="login-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 bg-white py-5 my-5">
+                <div class="login">
+                    <div class="login-text">
+                        <h2 class="text-center">Login</h2>
+                        <p class="text-grey2 text-center work-sans pb-4">Please login using account detail bellow.</p>
+                    </div>
+                    <div class="login-form px-4">
+                        <div class="alert alert-danger" asp-validation-summary="ModelOnly" style="z-index:100;opacity:0.5;width:100%"></div>
+                        <form method="post">
+                            <input asp-for="Email" class="shadow py-2 ps-3 border-0 work-sans  w-100" style="outline: none;" placeholder="Email">
+                            <span class="text text-dark" asp-validation-for="Email"></span>
+                            <div class="d-flex shadow align-items-center justify-content-between">
+                                <input asp-for="Password" class=" mt-4 work-sans py-2 ps-3 border-0 " style="outline: none;" placeholder="Password">
+                                <i class="bi bi-eye-slash pe-3" style="cursor: pointer;" id="togglePassword"></i>
+                            </div>
+                            <span class="text text-dark" asp-validation-for="Password"></span>
+                            <div class="d-flex">
+                                <div class="login-toggle-btn pt-5 d-flex justify-content-">
+                                    <div class="form-action-button align-items-center ">
+                                        <button type="submit" class="border-0 px-4 py-2 hover3 bg-transparent shadow t-5 work-sans" style="outline: none;">Sign in</button>
+                                    </div>
+
+                                    <div class="form-action-button ml-5 justify-content-end" style="padding-left: 410px;">
+                                        <a href="/account/register" id="" class="text-decoration-none text-grey2 work-sans hover2 t-5">Register?</a>
+                                    </div>
+                                </div>
+                            </div><br />
+                            <div class="form-action-button ml-5 justify-content-end" style="padding-left: 205px;">
+                                <a href="/account/ForgotPassword" id="" class="text-decoration-none text-grey2 work-sans hover2 t-5">ForgotPassword?</a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--====== Login-Area End ======-->

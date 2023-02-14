@@ -1,0 +1,138 @@
+﻿@model BlogVM
+
+@{
+    ViewData["Title"] = "Blogtag";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<section class="breadcrumb-area py-5 py-sm-0">
+    <div class=" bg-shade text-center py-4">
+        <a asp-controller="home" asp-action="index" class="  text-decoration-none text-white work-sans hover2 t-5">HOME </a>
+        <span class=" text-white">/</span>
+        <span class=" text-white work-sans">NEWS</span>
+    </div>
+</section>
+
+<!--====== Breadcrumb-Area End ======-->
+<!--====== Blog-Area Start ======-->
+<div class="blog-area py-5">
+    <div class="container">
+        <div class="row flex-row-reverse">
+            <div class="col-lg-9">
+                <div class="row">
+                    @foreach (var item in Model.Blogs)
+                    {
+
+                        <div class="col-lg-6 col-12">
+                            <div class="blog-wrap border py-2 px-2 text-center">
+                                <div class="blog-img ">
+                                    <a asp-controller="blog" asp-action="detail" asp-route-id="@item.Id">
+                                        <img src="~/assets/img/blog/@item.ImageUrl" alt="Significant reading has info" class="">
+                                    </a>
+                                </div>
+                                <div class="blog-content px-2 text-start">
+                                    <h5 class="py-3 border-bottom">
+                                        <a asp-controller="blog" asp-action="detail" asp-route-id="@item.Id" class="text-decoration-none text-white hover2 t-5 geometric ls-1 ">@item.Title</a>
+                                    </h5>
+                                    <div class="blog-meta pt-2">
+                                        <ul class="list-unstyled">
+                                            <li class="d-inline-block">
+                                                <a class="text-decoration-none text-grey hover2 t-5">@item.CreatedTime.ToString("dd MMMM, yyyy").ToUpper()</a>
+                                            </li>
+                                            <li class="d-inline-block">
+                                                <span class="text-grey ">\</span>
+                                            </li>
+                                            <li class="d-inline-block">
+                                                <a href="" class="text-decoration-none hover2 t-5 text-grey"> @item.Comments.Count() comment</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p class="text-white work-sans pb-3 ">
+                                        @if (item.Description.Length < 100)
+                                        {
+                                            @item.Description
+
+                                        }
+                                        else
+                                        {
+                                            @(item.Description.Substring(0, 100) + "...")
+                                        }
+                                    </p>
+                                    <div class="read-more-btn pb-4">
+                                        <a asp-controller="blog" asp-action="detail" asp-route-id="@item.Id" class="text-decoration-none text-white px-4 py-3 border work-sans hover3 t-5 br-50">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="sidebar-style">
+                    <div class="sidebar-widget mt-5">
+                        <h4 class="geometric ls-1 text-white">Custom Menu</h4>
+                        <ul class="list-unstyled pt-3">
+
+                            <li class="mt-3">
+                                <a asp-controller="about" asp-action="index" class="text-decoration-none text-white work-sans hover2 t-5">About us</a>
+                            </li>
+                            <li class="mt-3">
+                                <a asp-controller="shop" asp-action="index" class="text-decoration-none text-white work-sans hover2 t-5">Shop</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-widget my-5">
+                        <h4 class="geometric ls-1 text-white">Recent Post</h4>
+                        @foreach (var blog in Model.BlogsForTag.TakeLast(3))
+                        {
+
+                            <div class="single-sidebar-blog mt-4">
+                                <div class="sidebar-blog-img">
+                                    <a asp-controller="blog" asp-action="detail" asp-route-id="@blog.Id">
+                                        <img src="~/assets/img/blog/@blog.ImageUrl" alt="">
+                                    </a>
+                                </div>
+                                <div class="sidebar-blog-content text-white ms-4">
+                                    <span class="text-uppercase geometric ls-1 ">@blog.CreatedTime.ToString("MMMM dd, yyyy")</span>
+                                    <h6 class="pt-2">
+                                        <a asp-controller="blog" asp-action="detail" asp-route-id="@blog.Id" class="text-decoration-none text-white hover2 t-5 fw-normal geometric ls-1">@blog.Title...</a>
+                                    </h6>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="sidebar-widget mt-5">
+                        <h4 class="geometric ls-1 text-white">Archive</h4>
+                        <h5 class="text-white pt-3 pb-2">@DateTime.Now.ToString("MMMM yyyy")</h5>
+                        <ul class="archive-sidebar list-unstyled">
+                            @foreach (var itee in Model.BlogsForTag.Where(b => b.CreatedTime.Month == DateTime.Now.Month).TakeLast(5))
+                            {
+
+                                <li>
+                                    <a asp-controller="blog" asp-action="detail" asp-route-id="@itee.Id" class="text-decoration-none text-white work-sans hover2 t-5" title="">>  @itee.Title</a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="sidebar-widget mt-5">
+                        <h4 class="geometric ls-1 text-white">Tags</h4>
+                        <div class="sidebar-widget-tag">
+                            <ul class="list-unstyled">
+                                @foreach (var item in ViewBag.Tags)
+                                {
+
+                                    <li class="d-inline-block ">
+                                        <a href="/blog/blogtag/@item.Id" class=" text-decoration-none d-inline-block text-white border px-3 py-2 hover3 t-5">@item.Name</a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--====== Blog-Area End ======-->

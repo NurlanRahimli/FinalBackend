@@ -1,0 +1,993 @@
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.exe
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.deps.json
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.runtimeconfig.json
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.runtimeconfig.dev.json
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.pdb
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.AssemblyInfo.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\staticwebassets\Boake-BackEnd.StaticWebAssets.Manifest.cache
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorTargetAssemblyInfo.cache
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.CopyComplete
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.pdb
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.genruntimeconfig.cache
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.Views.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.Views.pdb
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorAssemblyInfo.cache
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorAssemblyInfo.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.TagHelpers.input.cache
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.TagHelpers.output.cache
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorCoreGenerate.cache
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorTargetAssemblyInfo.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.Views.pdb
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Detail.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Books.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchPartial.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\FromTo.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Blogtag.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Detail.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Checkout.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_basketPartial.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_basketPartialMobile.cshtml.g.cs
+C:\Users\hp\Desktop\Boake-BackEnd\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.exe
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.deps.json
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.runtimeconfig.json
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.runtimeconfig.dev.json
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.pdb
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.Views.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.Views.pdb
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.AssemblyReference.cache
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.AssemblyInfoInputs.cache
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.AssemblyInfo.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.CoreCompileInputs.cache
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.MvcApplicationPartsAssemblyInfo.cache
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorAssemblyInfo.cache
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorAssemblyInfo.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\staticwebassets\Boake-BackEnd.StaticWebAssets.Manifest.cache
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\staticwebassets\Boake-BackEnd.StaticWebAssets.Pack.cache
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.Boake-BackEnd.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Boake-BackEnd.props
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Boake-BackEnd.props
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Boake-BackEnd.props
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.TagHelpers.input.cache
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.TagHelpers.output.cache
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorCoreGenerate.cache
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Checkout.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Blogtag.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Detail.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_basketPartial.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_basketPartialMobile.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Books.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchPartial.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Detail.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\FromTo.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorTargetAssemblyInfo.cache
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorTargetAssemblyInfo.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.Views.pdb
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.CopyComplete
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.dll
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.pdb
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.genruntimeconfig.cache
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Shared\_AdminLayout.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Dashboard\Index.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Category\Index.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\_ViewImports.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Category\Create.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Category\Edit.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Tag\Index.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Tag\Create.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Tag\Edit.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\_ViewStart.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Type\Index.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Type\Edit.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Type\Create.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Index.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Detail.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Create.cshtml.g.cs
+D:\Nurlan\Boake_Backend_Project\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.exe
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.deps.json
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.runtimeconfig.json
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.runtimeconfig.dev.json
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.pdb
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.Views.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.Views.pdb
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.AssemblyInfo.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorAssemblyInfo.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorAssemblyInfo.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\staticwebassets\Boake-BackEnd.StaticWebAssets.Manifest.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.TagHelpers.input.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.TagHelpers.output.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorCoreGenerate.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Detail.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Category\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Category\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Category\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Tag\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Tag\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Tag\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Type\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Type\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Type\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\_ViewImports.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\_ViewStart.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Checkout.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Blogtag.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Detail.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_basketPartial.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_basketPartialMobile.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Books.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchPartial.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Detail.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\FromTo.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorTargetAssemblyInfo.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorTargetAssemblyInfo.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.Views.pdb
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.CopyComplete
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.pdb
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.genruntimeconfig.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Book\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Book\Detail.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Book\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Book\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\About\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\About\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\About\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Author\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Author\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Author\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Slider\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Slider\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Slider\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Slider\Detail.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Bio\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Bio\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Bio\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Order\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Order\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\adminpanel\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ModalBook.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.exe
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.deps.json
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.runtimeconfig.json
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.runtimeconfig.dev.json
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.pdb
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.Views.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.Views.pdb
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.AssemblyInfo.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorAssemblyInfo.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorAssemblyInfo.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\staticwebassets\Boake-BackEnd.StaticWebAssets.Manifest.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.TagHelpers.input.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.TagHelpers.output.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorCoreGenerate.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\About\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\About\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\About\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Author\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Author\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Author\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Bio\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Bio\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Bio\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Detail.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Book\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Book\Detail.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Book\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Book\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Category\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Category\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Category\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Order\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Order\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Slider\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Slider\Detail.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Slider\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Slider\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Tag\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Tag\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Tag\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Type\Create.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Type\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Type\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\_ViewImports.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\_ViewStart.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Checkout.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Blogtag.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Detail.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_basketPartial.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_basketPartialMobile.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Books.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ModalBook.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchPartial.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Detail.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\FromTo.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorTargetAssemblyInfo.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorTargetAssemblyInfo.cs
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.Views.pdb
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.CopyComplete
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.dll
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.pdb
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.genruntimeconfig.cache
+C:\Users\hp\Desktop\ONLY GITHUB PROJECTS !!!\HHHHHHHHHHHHHHH\Panel-For-Boake\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Error\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.exe
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.deps.json
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.runtimeconfig.json
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.runtimeconfig.dev.json
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.pdb
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.Views.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.Views.pdb
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorAssemblyInfo.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\staticwebassets\Boake-BackEnd.StaticWebAssets.Manifest.cache
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.TagHelpers.input.cache
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.TagHelpers.output.cache
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorCoreGenerate.cache
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\About\Create.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\About\Edit.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\About\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Author\Create.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Author\Edit.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Author\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Bio\Create.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Bio\Edit.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Bio\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Create.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Detail.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Edit.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Blog\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Book\Create.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Book\Detail.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Book\Edit.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Book\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Category\Create.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Category\Edit.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Category\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Contact\Edit.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Contact\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Order\Edit.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Order\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Slider\Create.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Slider\Detail.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Slider\Edit.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Slider\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Tag\Create.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Tag\Edit.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Tag\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Type\Create.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Type\Edit.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\Type\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\_ViewImports.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Areas\AdminArea\Views\_ViewStart.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Checkout.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Blogtag.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Detail.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Error\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_basketPartial.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_basketPartialMobile.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Books.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ModalBook.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchPartial.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Detail.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\FromTo.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorTargetAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.RazorTargetAssemblyInfo.cs
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.Views.pdb
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.dll
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.pdb
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\bin\Debug\netcoreapp3.1\Boake-BackEnd.StaticWebAssets.xml
+C:\Users\Lenovo\Desktop\25.01.2023-main\Boake-BackEnd\obj\Debug\netcoreapp3.1\Boake-BackEnd.csproj.AssemblyReference.cache

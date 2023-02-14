@@ -1,0 +1,57 @@
+﻿@model List<Order>
+@{
+    ViewData["Title"] = "Index";
+    int counter = 0;
+}
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-secondary rounded h-100 p-4">
+                <h6 class="mb-4">Basic Table</h6>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Country</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Order Status</th>
+                            <th scope="col">#</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            counter++;
+                            <tr>
+                                <th scope="row">@counter</th>
+                                <td>@item.CountryRegion</td>
+                                <td>@item.Date.ToString("dddd, dd MMMM yyyy HH:mm")</td>
+
+                                <td>@item.TotalPrice</td>
+                                @if (item.Status == null)
+                                {
+                                    <td>Gözlənilir</td>
+                                }
+                                else if (item.Status == true)
+                                {
+                                    <td>Qəbul edildi</td>
+                                }
+                                else
+                                {
+                                    <td>Rədd edilib</td>
+
+                                }
+                                 
+                                <td><a asp-area="adminarea" asp-controller="order" asp-action="edit" asp-route-id="@item.Id" class="btn btn-warning  ">Edit</a></td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

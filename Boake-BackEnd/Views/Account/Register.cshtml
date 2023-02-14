@@ -1,0 +1,67 @@
+﻿@model RegisterVM
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--====== Breadcrumb-Area Start ======-->
+
+<section class="breadcrumb-area py-5 py-sm-0">
+    <div class=" bg-shade text-center py-4">
+        <a asp-controller="home" asp-action="index" class="  text-decoration-none text-white work-sans hover2 t-5">HOME </a>
+        <span class=" text-white">/</span>
+        <span class=" text-white work-sans">CREATE ACCOUNT</span>
+    </div>
+</section>
+
+<!--====== Breadcrumb-Area End ======-->
+<!--====== Login-Area Start ======-->
+<div class="login-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 bg-white py-5 my-5">
+                <div class="login">
+                    <div class="login-text">
+                        <h2 class="text-center fw-semibold geometric ls-1">REGISTER</h2> 
+                    </div>
+                    <div class="login-form px-4">
+                        <div class="alert alert-danger" asp-validation-summary="ModelOnly" style="z-index:100;opacity:0.5;width:100%"></div>
+                        <form method="post">
+                            <input asp-for="@Model.Firstname" class="shadow py-2 ps-3 border-0 work-sans mt-3 w-100" style="outline: none;" placeholder="First Name">
+                            <span class="text-danger text" asp-validation-for="Firstname"></span>
+                            <input asp-for="@Model.Lastname" class="shadow py-2 ps-3 border-0 work-sans mt-3 w-100" style="outline: none;" placeholder="Last Name">
+                            <span class="text-danger text" asp-validation-for="Lastname"></span>
+                            <input asp-for="@Model.Username" class="shadow py-2 ps-3 border-0 work-sans mt-3 w-100" style="outline: none;" placeholder="Username">
+                            <span class="text-danger text" asp-validation-for="Username"></span>
+                            <input asp-for="@Model.Email" class="shadow py-2 ps-3 border-0 work-sans mt-3 w-100" style="outline: none;" placeholder="Email">
+                            <span class="text-danger text" asp-validation-for="Email"></span>
+
+                            <div class="d-flex shadow align-items-center justify-content-between">
+                                <input asp-for="Password" class=" mt-4 work-sans py-2 ps-3 border-0 " style="outline: none;" placeholder="Password">
+                                <span class="text-danger text" asp-validation-for="Password"></span>
+                                <i class="bi bi-eye-slash pe-3" style="cursor: pointer;" id="togglePassword"></i>
+                            </div>
+                            <div class="d-flex shadow align-items-center justify-content-between">
+                                <input asp-for="CheckPassword" class=" mt-4 work-sans py-2 ps-3 border-0 " style="outline: none;" placeholder="CheckPassword">
+                                <i class="bi bi-eye-slash pe-3" style="cursor: pointer;" id="togglePassword"></i>
+                            </div>
+                            <span class="text-danger text" asp-validation-for="CheckPassword"></span>
+                            <div class="d-flex">
+                                <div class="login-toggle-btn pt-5 d-flex justify-content-">
+                                    <div class="form-action-button align-items-center ">
+                                        <button type="submit" class="border-0 px-4 py-2 hover3 bg-transparent shadow t-5 work-sans" style="outline: none;">Submit!</button>
+                                    </div>
+
+                                    <div class="form-action-button ml-5 justify-content-end" style="padding-left: 410px;">
+                                        <a href="/account/login" id="" class="text-decoration-none text-grey2 work-sans hover2 t-5">Login?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--====== Login-Area End ======-->

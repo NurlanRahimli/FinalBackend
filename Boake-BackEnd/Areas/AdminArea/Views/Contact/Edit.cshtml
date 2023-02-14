@@ -1,0 +1,73 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-secondary rounded h-100 p-4">
+                <h6 class="mb-4">Basic Table</h6>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Subject</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Message</th>
+                            <th scope="col">Date</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>@Model.Subject</td>
+                            <td>@Model.Name</td>
+                            <td>@Model.Email</td>
+                            <td>@Model.Message</td>
+                            <td>@Model.Date.ToString("dddd, dd MMMM yyyy HH:mm")</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <h4>Message</h4>
+
+        <form method="post">
+            <div class="mb-3">
+                <input class="Message" cols="60" class="form-control" rows="10" />
+            </div>
+        </form>
+        <div>
+            <a asp-controller="contact" asp-action="send" asp-route-id="@Model.Id" class="accept btn btn-success btn-icon-text">
+                <i class="mdi mdi-file-check btn-icon-append"></i>
+                Send
+            </a>
+        </div>
+    </div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".accept").click(function (e) {
+            e.preventDefault();
+            var message = $(".Message").val();
+            var link = $(this).attr("href") + "/?message=" + message
+            fetch(link).then(res => res.json()).then(data => {
+                if (data.status == 200) {
+                    location.href = "https://localhost:44320/adminarea/contact"
+                } else {
+                }
+            })
+        })
+    })
+</script>

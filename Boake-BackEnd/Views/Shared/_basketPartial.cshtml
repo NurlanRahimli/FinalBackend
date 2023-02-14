@@ -1,0 +1,178 @@
+﻿@inject Boake_BackEnd.Services.LayoutService layoutService
+@{ BasketVM basket = await layoutService.ShowBasket(); }
+
+
+@if (layoutService.ShowBasket().Result.BasketItems.Count == 0)
+{
+
+<div class="cart-wrap">
+    <div class="dropdown">
+        <div id="iconCartI" class="icon ">
+            <span class="icon-cart">
+                <svg viewBox="0 0 32 32" class="t-5" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Layer_2" data-name="Layer 2">
+                        <path d="m16 17.82a6 6 0 0 1 -5.89-4.82 1 1 0 0 1 1-1.15 1 1 0 0 1 1 .83 4 4 0 0 0 7.83 0 1 1 0 0 1 1-.83 1 1 0 0 1 1 1.15 6 6 0 0 1 -5.94 4.82z">
+                        </path>
+                        <path d="m24.9 31h-17.8a3 3 0 0 1 -3-3.15l.81-17.24a3 3 0 0 1 3-2.87h16.18a3 3 0 0 1 3 2.87l.81 17.24a3 3 0 0 1 -3 3.15zm-16.99-21.25a1 1 0 0 0 -1 1l-.81 17.2a1 1 0 0 0 1 1.05h17.8a1 1 0 0 0 1-1.05l-.81-17.24a1 1 0 0 0 -1-1z">
+                        </path>
+                        <path d="m22 8.75h-2v-1.75a4 4 0 0 0 -8 0v1.75h-2v-1.75a6 6 0 0 1 12 0z"></path>
+                    </g>
+                </svg>
+                <span class="count-style bigcounter">0</span>
+            </span>
+        </div>
+        <ul class="cartDropDown text-start list-unstyled">
+            <li class="">
+                <div class="shopping-cart-content">
+                    <div class="d-flex px-4 align-items-center justify-content-between">
+                        <h5 class="text-white py-4">Shopping Cart</h5>
+                        <a href="" class="cart-close ">
+                            <i class="fa-regular fa-circle-xmark hover2 t-5 text-white"></i>
+                        </a>
+                    </div>
+
+                    <ul class="scrollbasket bg-myrtle">
+                        <li style="list-style:none;" class="item ">
+                            <div class=" pt-3 row justify-content-between align-items-center">
+
+                                <div class="col-lg-8 shopping-cart-title">
+                                    <h4>
+                                        <a href="" class="text-decoration-none text-white hover2 t-5 fw-normal work-sans ">
+                                            Your Cart Is Empty
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+                
+}
+else
+{
+                <div class="cart-wrap">
+                    <div class="dropdown">
+                        <div id="iconCartI" class="icon ">
+                            <span class="icon-cart">
+                                <svg viewBox="0 0 32 32" class="t-5" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Layer_2" data-name="Layer 2">
+                                        <path d="m16 17.82a6 6 0 0 1 -5.89-4.82 1 1 0 0 1 1-1.15 1 1 0 0 1 1 .83 4 4 0 0 0 7.83 0 1 1 0 0 1 1-.83 1 1 0 0 1 1 1.15 6 6 0 0 1 -5.94 4.82z">
+                                        </path>
+                                        <path d="m24.9 31h-17.8a3 3 0 0 1 -3-3.15l.81-17.24a3 3 0 0 1 3-2.87h16.18a3 3 0 0 1 3 2.87l.81 17.24a3 3 0 0 1 -3 3.15zm-16.99-21.25a1 1 0 0 0 -1 1l-.81 17.2a1 1 0 0 0 1 1.05h17.8a1 1 0 0 0 1-1.05l-.81-17.24a1 1 0 0 0 -1-1z">
+                                        </path>
+                                        <path d="m22 8.75h-2v-1.75a4 4 0 0 0 -8 0v1.75h-2v-1.75a6 6 0 0 1 12 0z"></path>
+                                    </g>
+                                </svg>
+                                <span class="count-style bigcounter">@basket.Count</span>
+                            </span>
+                        </div>
+                        <ul class="cartDropDown text-start list-unstyled">
+                            <li class="">
+                                <div class="shopping-cart-content">
+                                    <div class="d-flex px-4 align-items-center justify-content-between">
+                                        <h5 class="text-white py-4">Shopping Cart</h5>
+                                        <a href="" class="cart-close ">
+                                            <i class="fa-regular fa-circle-xmark hover2 t-5 text-white"></i>
+                                        </a>
+                                    </div>
+
+                                    <ul class="scrollbasket bg-myrtle">
+                                        @foreach (var item in layoutService.ShowBasket().Result.BasketItems)
+                                        {
+                        <li style="list-style:none;" class="item ">
+                            <div class=" pt-3 row justify-content-between align-items-center">
+                                <div class="col-lg-4 shopping-cart-img position-relative text-start">
+                                    <a href="/shop/detail/@item.Book.Id" class="">
+                                        <img src="~/assets/img/feature-collection/@item.Book.ImageUrl" class="w-100" alt="">
+                                    </a>
+                                    <div class="item-close">
+                                        <a asp-controller="basket" asp-action="remove" asp-route-id="@item.Book.Id" class="removeb">
+                                            <i class="fa-regular fa-circle-xmark text-white"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 shopping-cart-title">
+                                    <h4>
+                                        <a href="/shop/detail/@item.Book.Id" class="text-decoration-none text-white hover2 t-5 fw-normal work-sans ">
+                                            @item.Book.Name
+                                        </a>
+                                    </h4>
+                                    <span class="text-white fw-semibold ls-1">
+                                        @item.Count x <span class="money fw-semibold ls-1">
+                                            $@if (item.Book.CampaignId == null)
+                                            {
+                        @item.Book.Price }
+                    else
+                    { @(item.Book.Price * (100 - item.Book.Campaign.DiscountPercent) / 100)}
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>}
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li class="px-4 pb-5">
+                                            <div class="single-product-cart cart-bottom">
+                                                <div class="shopping-cart-total py-2 border-top">
+                                                    <h4 class="text-white fw-light  work-sans d-flex justify-content-between align-items-center">
+                                                        <span class="">Total:</span>
+                                                        <span class="work-sans">$@basket.TotalPrice</span>
+                                                    </h4>
+                                                </div>
+                                                <div class="shopping-cart-btn btn-hover text-center">
+                                                    <a class="text-decoration-none text-white border hover3 t-5  py-2 d-block work-sans text-uppercase fw-semibold " asp-controller="basket" asp-action="checkout">Checkout</a>
+                                                    <a class="text-decoration-none text-white border hover3 t-5 py-2 d-block work-sans text-uppercase fw-semibold mt-3" asp-controller="Basket" asp-action="index">View Cart</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+}
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    $(".removeb").click(function (e) {
+        e.preventDefault()
+        console.log($(this).attr("href"))
+        Swal.fire({
+            title: 'Are you Sure?',
+            text: "There is no way back!",
+            icon: 'Xəbərdarlıq',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                var link = $(this).attr("href");
+                fetch(link).then(response => response.json()).then(data => {
+                    if (data.status == 200) {
+                        location.reload(true)
+                    } else {
+                        Swal.fire(
+                            'Tapılmadı!',
+                            'Fayl silinmiş ola bilər.',
+                            'Uğursuz cəhd'
+                        )
+                    }
+                });
+            }
+        })
+    })
+</script>

@@ -1,0 +1,66 @@
+﻿@model List<Order>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="breadcrumb-area py-5 py-sm-0">
+    <div class=" bg-shade text-center py-4">
+        <a asp-controller="home" asp-action="index" class="  text-decoration-none text-white work-sans hover2 t-5">HOME </a>
+        <span class=" text-white">/</span>
+        <span class=" text-white work-sans">Account</span>
+    </div>
+</section>
+
+<div class="customer-page theme-default-margin my-account-page" style="background-color:wheat;">
+    <div class="container">
+        <hr class="hr--small">
+        <div class="grid">
+            <div class="grid__item two-thirds medium-down--one-whole">
+                <h2 class="h4">Order History</h2>
+                <div class="table-wrap">
+                    <table class="full">
+                        <thead>
+                            <tr>
+                                <th>Order Id</th>
+                                <th>Date</th>
+                                <th>Payment Status</th>
+                                <th>Fulfillment Status</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+
+                                @foreach (var item in Model)
+                                {
+
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>@item.Date.ToString("MMMM dd,yyyy") </td>
+                                        @if (item.Status == null)
+                                        {
+                                            <td>Pending</td>
+                                        }
+                                        else if (item.Status == true)
+                                        {
+                                            <td>Accepted</td>
+                                        }
+                                        else
+                                        {
+                                            <td>Rejected</td>
+                                        }
+                                        <td>Unfulfilled</td>
+                                        <td><span class="money" >$@item.TotalPrice</span></td>
+                                    </tr>
+
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

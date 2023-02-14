@@ -1,0 +1,40 @@
+﻿@model Book
+
+
+<div class="row">
+    <div class="col-lg-6 col-12">
+        <img src="~/assets/img/feature-collection/@Model.ImageUrl" class="w-100" alt="">
+    </div>
+    <div class="col-lg-6 col-12">
+        <h2 class="title geometric text-white ls-1">@Model.Name</h2>
+        <span class="price">
+            @if (Model.CampaignId == null)
+            {
+                <span class="money text-fusion  fw-bold fs-4">$@Model.Price</span>
+            }
+            else
+            {
+                <span class="money text-white  fs-4" style="text-decoration:line-through">$@Model.Price</span>
+                <span class="money text-fusion ps-3 fw-bold fs-4">$@((Model.Price * (100 - Model.Campaign.DiscountPercent) / 100).ToString("0.##"))</span>
+            }
+        </span>
+
+
+        @*<span class="price">
+                <span class="money text-fusion work-sans fw-bold fs-3" data-currency-usd="" data-currency="USD">@Model.Price</span>
+            </span>*@
+        <p class="description text-white pt-4">
+            @Model.Description
+        </p>
+        <div class="variants_selects variants_margin">
+            <div class="quickview-plus-minus d-flex align-items-center pt-4">
+                <div class="quickview-btn-cart ps-4">
+                    <a href="/basket/addbasket/@Model.Id" class="bg-grey px-3 py-2 hover3 t-5 border-0"
+                       style="outline: none;color:white;text-decoration:none;">
+                        Add to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

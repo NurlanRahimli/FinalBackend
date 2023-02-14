@@ -1,0 +1,12 @@
+﻿@model List<Book>
+@foreach (var item in Model)
+{
+    <li>
+        <a href="/shop/detail/@item.Id">
+            <span class="thumbnail">
+                <img src="~/assets/img/feature-collection/@item.ImageUrl">
+            </span>
+            <span class="title">@item.Name</span>
+        </a>
+    </li>
+}

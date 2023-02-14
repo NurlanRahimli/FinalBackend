@@ -1,0 +1,449 @@
+﻿@model List<Book>
+@{ ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+
+<!--====== Breadcrumb-Area Start ======-->
+
+<section class="breadcrumb-area py-5 py-sm-0">
+    <div class=" bg-shade text-center py-4">
+        <a asp-controller="home" asp-action="index" class="  text-decoration-none text-white work-sans hover2 t-5">HOME </a>
+        <span class=" text-white">/</span>
+        <span class=" text-white work-sans">PRODUCTS</span>
+    </div>
+</section>
+
+<!--====== Breadcrumb-Area End ======-->
+<!--====== Shop-Area Start ======-->
+<div class="Shop-area py-5">
+    <div class="container">
+        <div class="row flex-row-reverse ">
+            <div class="col-lg-9">
+                <div class="shop-top-bar ">
+                    <div class="select-showing-wrap d-sm-flex d-block justify-content-between">
+                        <div class="shop-select pt-4 pt-sm-0  text-white">
+                            <label for="SortBy">Sort by :</label>
+                            <p class="d-none" id="getvalue">@ViewBag.id</p>
+                            <select name="" id="select">
+                                <option value="1">Default</option>
+                                <option value="5">Low to high</option>
+                                <option value="4">High to low</option>
+                                <option value="3">A to Z</option>
+                                <option value="2">Z to A</option>
+
+                            </select>
+                        </div>
+                        <div class="pt-4 pt-sm-0">
+                            <span class="text-white">Showing 3 of @ViewBag.Count result</span>
+                        </div>
+
+                        <div class="pt-4 pt-sm-0">
+                            <a href="" class="text-decoration-none many-many text-white fs-5">
+                                <i class="fa-solid fa-border-all"></i>
+                            </a>
+                            <a href="" class="text-decoration-none one-one text-white fs-5 ms-4">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-bottom-area">
+                    <div class="many">
+                        <div class="row">
+                            @foreach (var item in Model)
+
+                            {
+
+                                <div class="col-lg-4 col-6 pt-4 item-m"
+                                     data-id="@foreach (AuthorBook author in item.AuthorBooks){
+                            @(author.Author.Name)
+}"
+                                     data-type="@foreach (BookType type in item.BookTypes){
+                            @(type.ProductType.Name)
+}">
+
+                                    <div class="input-border product-image me-4 position-relative ">
+                                        <a href="/shop/detail/@item.Id" class="product-image">
+                                            <img src="~/assets/img/feature-collection/@item.ImageUrl" class="w-100" alt="">
+                                        </a>
+                                        <h4 class="title fs-6 fs-sm-12 fs-sm-12 ls-1">
+                                            <a href="/shop/detail/@item.Id" class="text-decoration-none text-white  ps-3 work-sans hover2 t-5 geometric">@item.Name</a>
+                                        </h4>
+                                        <span class="discounted-price">
+                                            @if (item.CampaignId != null)
+                                            {
+                                                <span class="money text-decoration-line-through ps-3  text-white">$@item.Price</span>
+                                            }
+                                        </span>
+
+                                        <span class="price">
+                                            @if (item.CampaignId != null)
+                                            {
+                                                <span class="money text-fusion ps-3 fw-bold fs-4">$@(((item.Price * (100 - item.Campaign.DiscountPercent) / 100)).ToString("0.##"))</span> }
+                                            else
+                                            {
+                                                <span class="money text-fusion ps-3 fw-bold fs-4">$@item.Price</span>
+                                            }
+                                        </span>
+                                        <span class="stars ps-3 pt-2 pb-3 d-block">
+                                            <i class="fa-regular fa-star text-yellow"></i>
+                                            <i class="fa-regular fa-star text-yellow"></i>
+                                            <i class="fa-regular fa-star text-yellow"></i>
+                                            <i class="fa-regular fa-star text-yellow"></i>
+                                            <i class="fa-regular fa-star text-yellow"></i>
+                                        </span>
+                                        <div class="ht-product-action ">
+                                            <ul class="list-unstyled d-flex align-items-center justify-content-center pt-3">
+                                                <li class=" ">
+                                                    <a class="text-decoration-none hover2 t-5 text-white productModalBtn" data-modal asp-controller="shop" asp-action="modal" asp-route-id="@item.Id" id="@item.Id">
+                                                        <i class="fas fa-search fs-4" style="cursor: pointer;"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="ps-4 ">
+                                                    <a href="/basket/addbasket/@item.Id" class="text-decoration-none hover2 t-5 text-white">
+                                                        <i class="las la-shopping-bag fs-4" style="cursor: pointer;"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        @if (item.CampaignId != null)
+                                        {
+                                            <div class="sale">
+                                                <span class="bg-fusion px-3  text-white d-flex justify-content-center align-items-center mt-sm-3 mt-2 fs-sm-12 work-sans br-50">-@item.Campaign.DiscountPercent%</span>
+                                            </div>}
+                                    </div>
+                                </div>}
+                        </div>
+                    </div>
+                    <div class="one">
+                        <div class="row ">
+                            @foreach (var item in Model)
+                            {
+                                <div class="col-lg-12 col-12 item-o" data-ids="@foreach (var author in item.AuthorBooks)
+                                       {
+                                           @(author.Author.Name )
+                                       }" data-types="@foreach (var type in item.BookTypes)
+                                       {
+                                           @(type.ProductType.Name )
+                                       }">
+                                    <div class="border  mt-4 px-4 py-5">
+                                        <div class="row">
+                                            <div class="col-lg-4 position-relative">
+                                                <a href="/shop/detail/@item.Id" class="product-image">
+                                                    <img src="~/assets/img/feature-collection/@item.ImageUrl" class="w-100" alt="">
+                                                </a>
+                                                @if (item.CampaignId != null)
+                                                {
+                                                    <div class="sale">
+                                                        <span class="bg-fusion px-3  text-white d-flex justify-content-center align-items-center mt-sm-3 mt-2 fs-sm-12 work-sans br-50">-@item.Campaign.DiscountPercent%</span>
+                                                    </div>}
+                                                <div class="ht-product-action-mobile ">
+                                                    <ul class="list-unstyled d-flex align-items-center justify-content-center pt-3">
+                                                        <li class=" ">
+                                                            <a class="text-decoration-none hover2 t-5 text-white productModalBtn" data-modal asp-controller="shop" asp-action="modal" asp-route-id="@item.Id" id="@item.Id">
+                                                                <i class="fas fa-search fs-4" style="cursor: pointer;"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="ps-4 ">
+                                                            <a href="/basket/addbasket/@item.Id" class="text-decoration-none hover2 t-5 text-white">
+                                                                <i class="las la-shopping-bag fs-4" style="cursor: pointer;"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h3 class="">
+                                                    <a href="/shop/detail/@item.Id" class="text-decoration-none text-white geometric ls-1 hover2 t-5">@item.Name</a>
+                                                </h3>
+                                                <p class="text-white work-sans pt-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
+                                                <div class="shop-list-price-ratting">
+                                                    <div class="ht-product-list-price d-flex align-items-center">
+                                                        @*<span class="discounted-price">
+                                                                <span class="money text-fusion fs-4 geometric fw-bold" data-currency-usd="$110.00">$@item.Price</span>
+                                                            </span>
+                                                            <span class="price ps-2">
+                                                                <span class="money text-white text-decoration-line-through" data-currency-usd="$130.00">$130.00</span>
+                                                            </span>*@
+
+
+                                                        <span class="discounted-price">
+                                                            @if (item.CampaignId != null)
+                                                            {
+                                                                <span class="money text-decoration-line-through   text-white">$@item.Price</span>}
+                                                        </span>
+
+                                                        <span class="price">
+                                                            @if (item.CampaignId != null)
+                                                            {
+                                                                <span class="money text-fusion ps-3 fw-bold fs-4">$@(((item.Price * (100 - item.Campaign.DiscountPercent) / 100)).ToString("0.##"))</span> }
+                                                            else
+                                                            {
+                                                                <span class="money text-fusion fw-bold fs-4">$@item.Price</span>}
+                                                        </span>
+                                                        @*<span class="stars ps-3 pt-2 pb-3 d-block">
+                                                                <i class="fa-regular fa-star text-yellow"></i>
+                                                                <i class="fa-regular fa-star text-yellow"></i>
+                                                                <i class="fa-regular fa-star text-yellow"></i>
+                                                                <i class="fa-regular fa-star text-yellow"></i>
+                                                                <i class="fa-regular fa-star text-yellow"></i>
+                                                            </span>*@
+                                                        <div class="ht-product-action ">
+                                                            <ul class="list-unstyled d-flex align-items-center justify-content-center pt-3">
+                                                                <li class=" ">
+                                                                    <a class="text-decoration-none hover2 t-5 text-white productModalBtn" data-modal asp-controller="shop" asp-action="modal" asp-route-id="@item.Id" id="@item.Id">
+                                                                        <i class="fas fa-search fs-4" style="cursor: pointer;"></i>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="ps-4 ">
+                                                                    <a href="/basket/addbasket/@item.Id" class="text-decoration-none hover2 t-5 text-white">
+                                                                        <i class="las la-shopping-bag fs-4" style="cursor: pointer;"></i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="ht-product-list-ratting spr-badge-caption-none">
+                                                        <span class="spr-badge">
+                                                            <i class="fa-regular fa-star text-yellow"></i>
+                                                            <i class="fa-regular fa-star text-yellow"></i>
+                                                            <i class="fa-regular fa-star text-yellow"></i>
+                                                            <i class="fa-regular fa-star text-yellow"></i>
+                                                            <i class="fa-regular fa-star text-yellow"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="mt-4">
+                                                        <a href="/basket/addbasket/@item.Id" class="text-decoration-none text-white add-to-cart border px-4 py-2 hover3 t-5">
+                                                            <i class="las la-shopping-basket text-white"></i>
+                                                            <span>Add to cart</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>}
+                        </div>
+                    </div>
+                    <div class="pagination pt-5 ">
+                        <ul class="list-unstyled d-flex ">
+                            <li class=" d-inline-block @(ViewBag.Currentpage == 1 ? "disabled" : "")">
+                                <a asp-controller="shop" asp-action="index" asp-route-page="@(ViewBag.CurrentPage-1)" style="pointer-events:@(ViewBag.Currentpage == 1 ? "none" : "");" class=" hover3 t-5 br-100 pagi text-decoration-none bg-white">
+                                    <i class="fa-solid fa-angle-left "></i>
+                                </a>
+                            </li>
+                            @for (int i = 1; i <= ViewBag.TotalPage; i++)
+                            {
+                                <li class=" d-inline-block">
+                                    <a style="pointer-events:@(ViewBag.CurrentPage == i ? "none" : ""); background-color:@(ViewBag.CurrentPage == i ? "#ff6162" : "") !important; color:@(ViewBag.CurrentPage == i ? "#fff" : "");" asp-controller="shop" asp-action="index" asp-route-page="@i" class="ms-3 hover3 t-5 br-100 pagi bg-white text-decoration-none ">
+                                        <span>@i</span>
+                                    </a>
+                                </li>
+}
+                            <li class=" d-inline-block @(ViewBag.CurrentPage == ViewBag.TotalPage ? "d-none" : "")">
+                                <a asp-controller="shop" asp-action="index" asp-route-page="@(ViewBag.CurrentPage +1)" class="@(ViewBag.CurrentPage == ViewBag.TotalPage ? "disabled" : "") hover3 ms-3 t-5 br-100 pagi text-decoration-none bg-white">
+                                    <i class="fa-solid fa-angle-right "></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <!-- Price -->
+                <div class="price">
+                    <button class="accordion text-white bg-transparent border-bottom work-sans fw-semibold">Price</button>
+                    <div class="panel text-white">
+                        <div class="sidebar-body widget-collapse-hide my-4">
+
+                            <div class="filter-value-counter"><span class="filter-value-selected"> selected</span></div>
+                            <div class="checkbox-container categories-list sidebar-price-filter">
+                                <div class="filter-range-from work-sans">
+                                    <span>$</span>
+                                    <input class="fs-15 text-white" id="from-input" type="number" placeholder="0" min="0" max="110.00">
+                                    <label for="Filter-price-1">From</label>
+                                </div>
+                                <div class="filter-price-range-to work-sans">
+                                    <span>$</span>
+                                    <input class="fs-15 text-white" id="to-input" type="number" placeholder="110.00" min="0" max="110.00">
+                                    <label for="">To</label>
+                                </div>
+                            </div>
+                            <button type="submit" id="fbtn" class="mt-4 border-0 bg-grey w-100 py-2 hover3 t-5" style="outline: none;">Filter</button>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Product -->
+                <div class="product">
+                    <button class="accordion text-white bg-transparent border-bottom work-sans fw-semibold">Product type</button>
+                    <div class="panel text-white ">
+                        <div class="sidebar-body widget-collapse-hide my-4  ">
+                            <div class="checkbox-container categories-list  ">
+                                <ul class="checkbox-container categories-list list-unstyled ">
+                                    @foreach (var item in ViewBag.Types)
+                                    {
+
+                                        <li>
+                                            <div class="custom-control custom-checkbox ">
+                                                <label for="Filter-product-type-1" class="custom-control-label type-tab">
+                                                    <a class="custom-control-label text-decoration-none text-white " href="@item.Name">
+                                                        @item.Name <span class="count_value"> (@item.BookTypes.Count)</span>
+                                                    </a>
+                                                    
+                                                </label>
+                                            </div>
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Brand -->
+                <div class="brand">
+                    <button class="accordion text-white bg-transparent border-bottom work-sans fw-semibold">Brand</button>
+                    <div class="panel text-white ">
+                        <div class="sidebar-body widget-collapse-hide my-4  ">
+                            <div class="checkbox-container categories-list  ">
+                                <ul class="checkbox-container categories-list list-unstyled ">
+                                    @foreach (var item in ViewBag.Authors)
+                                    {
+                                        <li>
+                                            <div class="custom-control author-tab custom-checkbox ">
+                                                <a href="@item.Name" class="custom-control-label" style="text-decoration:none;">
+                                                    <label for="Filter-brand-vendor-1" class="custom-control-label">
+                                                        <a class="custom-control-label text-decoration-none text-white " href="@item.Name">
+                                                            @item.Name <span class="count_value"> (@item.AuthorBooks.Count)</span>
+                                                        </a>
+                                                        
+                                                    </label>
+                                                </a>
+                                            </div>
+                                        </li>
+}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts{
+    <!--====== Shop-Area End ======-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).on("click", "#fbtn", function (e) {
+            var to = $("#to-input");
+            var from = $("#from-input");
+            var base = window.location.origin;
+            console.log(to.val())
+            var url = `${base}/shop/fromto?from=${$(from).val()}&to=${$(to).val()}`
+            window.location.replace(url)
+
+        })
+        let one = document.querySelector('one')
+        let many = document.querySelector('many')
+        $('.one-one').click(function (e) {
+            e.preventDefault()
+            $('.one').css('display', 'block')
+            $('.many').css('display', 'none')
+        })
+        $('.many-many').click(function (e) {
+            e.preventDefault()
+            $('.many').css('display', 'block')
+            $('.one').css('display', 'none')
+        })
+        $(".author-tab a").click(function (e) {
+            e.preventDefault();
+
+            var id = $(this).attr("href")
+
+            var items = document.querySelectorAll(".item-m")
+            items.forEach(item => {
+                item.style.display = "none"
+                var a = item.getAttribute("data-id")
+
+                if (a.includes(id)) {
+                    item.style.display = "block"
+                }
+            })
+        });
+        $(".type-tab a").click(function (e) {
+            e.preventDefault();
+
+            var id = $(this).attr("href")
+
+            var items = document.querySelectorAll(".item-m")
+            items.forEach(item => {
+                item.style.display = "none"
+                var a = item.getAttribute("data-type")
+
+                if (a.includes(id)) {
+                    item.style.display = "block"
+                }
+            })
+        });
+
+
+        $(".author-tab a").click(function (e) {
+            e.preventDefault();
+
+            var id = $(this).attr("href")
+
+            var items = document.querySelectorAll(".item-o")
+            items.forEach(item => {
+                item.style.display = "none"
+                var a = item.getAttribute("data-id")
+
+                if (a.includes(id)) {
+                    item.style.display = "block"
+                }
+            })
+        });
+        $(".type-tab a").click(function (e) {
+            e.preventDefault();
+
+            var id = $(this).attr("href")
+
+            var items = document.querySelectorAll(".item-o")
+            items.forEach(item => {
+                item.style.display = "none"
+                var a = item.getAttribute("data-type")
+
+                if (a.includes(id)) {
+                    item.style.display = "block"
+                }
+            })
+        });
+    </script>
+    <script>
+        var option = document.querySelectorAll("#select option")
+        var id = document.getElementById("getvalue").innerHTML
+        console.log(id)
+        for (i = 0; i <= option.length - 1; i++) {
+            if (option[i].value == id) {
+                option[i].setAttribute("selected", "true")
+            }
+        }
+        $(document).ready(function () {
+
+            $(document).on("change", "#select", function (e) {
+
+                var base = window.location.origin;
+                var url = `${base}/shop?sortId=${$(this).val()}`
+                window.location.replace(url)
+
+            })
+        })
+
+    </script>
+
+}

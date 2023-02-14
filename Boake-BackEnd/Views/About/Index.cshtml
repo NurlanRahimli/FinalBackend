@@ -1,0 +1,178 @@
+﻿@model About
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--====== Breadcrumb-Area Start ======-->
+
+<section class="breadcrumb-area py-5 py-sm-0">
+    <div class=" bg-shade text-center py-4">
+        <a asp-controller="home" asp-action="index" class="  text-decoration-none text-white work-sans hover2 t-5">HOME </a>
+        <span class=" text-white">/</span>
+        <span class=" text-white work-sans">ABOUT US</span>
+    </div>
+</section>
+
+<!--====== Breadcrumb-Area End ======-->
+<!--====== Banner-Area Start ======-->
+<div class="banner-area py-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-5 col-12 position-relative">
+                <a href="">
+                    <img src="assets/img/about/@Model.ImageUrl" class="w-100" alt="">
+                </a>
+                <a class="text-decoration-none banner-video " href="#myModal" data-toggle="modal">
+                    <i class="fas fa-play"></i>
+                </a>
+            </div>
+            <div class="col-lg-6 col-12 banner-content">
+                <h2 class="work-sans text-fusion position-relative">@Model.Name</h2>
+                <p class="work-sans text-white fs-5 pt-4">
+                   @Html.Raw(Model.Description)
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--====== Banner-Area End ======-->
+<!--====== Testimonials-Area Start ======-->
+<div class="testimonial-area py-5" style="background: url(assets/img/banner/banner.png);">
+    <div class="container">
+        <div class="section-title text-center text-white work-sans py-5">
+            <h2>What Clients Says</h2>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 mx-auto position-relative">
+                <div class="about-testimonials-slider">
+                    <div class="single-testimonial text-center ">
+                        <img src="assets/img/testimonial/testimonial2.png" class="m-auto " alt="">
+                        <p class="text-white w-75 work-sans py-4 m-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit.</p>
+                        <h5 class="text-white">Hester Perkins</h5>
+                    </div>
+                    <div class="single-testimonial text-center ">
+                        <img src="assets/img/testimonial/testimonial2.png" class="m-auto " alt="">
+                        <p class="text-white w-75 work-sans py-4 m-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit.</p>
+                        <h5 class="text-white">Hester Perkins</h5>
+                    </div>
+                </div>
+                <div class="slick-dots-testimonial "></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--====== Testimonials-Area End ======-->
+<!--====== Team-Area Start ======-->
+<div class="team-area py-5">
+    <div class="container">
+        <div class="section-title text-center text-white ">
+            <h2>Awesome Team</h2>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random.</p>
+        </div>
+        <div class="py-5">
+            <div class="container position-relative olo5">
+                <div class="row team-slider">
+                    <div class="card mx-3">
+                        <img class="card-img-top" src="assets/img/team/team1.png" style="cursor: pointer;" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h4 class="card-title geometric ls-1 fw-normal">Mr. Mike Banding</h4>
+                            <span><em>Manager</em></span>
+                        </div>
+                        <div class="team-socials text-center w-100 py-2 bg-white">
+                            <a href="https://www.facebook.com/" target="_blank" class="bg-facebook text-decoration-none text-white work-sans hover-facebook t-5 ">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.twitter.com/" target="_blank" class="bg-twitter text-decoration-none text-white work-sans hover-twitter t-5">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="bg-instagram text-decoration-none text-white work-sans hover-instagram t-5 ">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card mx-3">
+                        <img class="card-img-top" src="assets/img/team/team2.png" style="cursor: pointer;" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h4 class="card-title geometric ls-1 fw-normal">Mr. Peter Pan</h4>
+                            <span><em>Developer</em></span>
+                        </div>
+                        <div class="team-socials text-center w-100 py-2 bg-white">
+                            <a href="https://www.facebook.com/" target="_blank" class="bg-facebook text-decoration-none text-white work-sans hover-facebook t-5 ">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.twitter.com/" target="_blank" class="bg-twitter text-decoration-none text-white work-sans hover-twitter t-5">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="bg-instagram text-decoration-none text-white work-sans hover-instagram t-5 ">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card mx-3">
+                        <img class="card-img-top" src="assets/img/team/team3.png" style="cursor: pointer;" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h4 class="card-title geometric ls-1 fw-normal">Ms. Sophia</h4>
+                            <span><em>Designer</em></span>
+                        </div>
+                        <div class="team-socials text-center w-100 py-2 bg-white">
+                            <a href="https://www.facebook.com/" target="_blank" class="bg-facebook text-decoration-none text-white work-sans hover-facebook t-5 ">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.twitter.com/" target="_blank" class="bg-twitter text-decoration-none text-white work-sans hover-twitter t-5">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="bg-instagram text-decoration-none text-white work-sans hover-instagram t-5 ">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card mx-3">
+                        <img class="card-img-top" src="assets/img/team/team4.png" style="cursor: pointer;" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h4 class="card-title geometric ls-1 fw-normal">Mr. John Lee</h4>
+                            <span><em>Chairmen</em></span>
+                        </div>
+                        <div class="team-socials text-center w-100 py-2 bg-white">
+                            <a href="https://www.facebook.com/" target="_blank" class="bg-facebook text-decoration-none text-white work-sans hover-facebook t-5 ">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.twitter.com/" target="_blank" class="bg-twitter text-decoration-none text-white work-sans hover-twitter t-5">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="bg-instagram text-decoration-none text-white work-sans hover-instagram t-5 ">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card mx-3">
+                        <img class="card-img-top" src="assets/img/team/team5.png" style="cursor: pointer;" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h4 class="card-title geometric ls-1 fw-normal">Mr. Mike Banding</h4>
+                            <span><em>Manager</em></span>
+                        </div>
+                        <div class="team-socials text-center w-100 py-2 bg-white">
+                            <a href="https://www.facebook.com/" target="_blank" class="bg-facebook text-decoration-none text-white work-sans hover-facebook t-5 ">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.twitter.com/" target="_blank" class="bg-twitter text-decoration-none text-white work-sans hover-twitter t-5">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="bg-instagram text-decoration-none text-white work-sans hover-instagram t-5 ">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="prev-team hover3 t-5 pa-col ">
+                    <i class="fa-solid fa-chevron-left  work-sans" style="cursor: pointer;"></i>
+                </div>
+                <div class="next-team hover3 t-5  pa1-col">
+                    <i class="fa-solid fa-chevron-right work-sans" style="cursor: pointer;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--====== Team-Area End ======-->

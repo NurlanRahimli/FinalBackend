@@ -1,0 +1,227 @@
+﻿@model Book
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--====== Breadcrumb-Area Start ======-->
+
+<section class="breadcrumb-area py-5 py-sm-0">
+    <div class=" bg-shade text-center py-4">
+        <a asp-controller="home" asp-action="index" class="  text-decoration-none text-white work-sans hover2 t-5">HOME </a>
+        <span class=" text-white ">/</span>
+        <span class=" text-white work-sans"> @Model.Name</span>
+    </div>
+</section>
+
+<!--====== Breadcrumb-Area End ======-->
+<!--====== Detail-Area Start ======-->
+<section class="my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <div class="border position-relative">
+                    <img src="~/assets/img/feature-collection/@Model.ImageUrl" class="w-100" alt="">
+                    <!-- <a data-toggle="modal" href="#myModal" class="text-decoration-none text-white bg-fusion hover4 t-5 px-4 py-3 position-absolute bottom-0 start-0">
+                        <i class="fas fa-play"></i>
+                        <span>View Video</span>
+                    </a> -->
+                </div>
+            </div>
+            <div class="col-lg-6 details col-12 pt-5 pt-sm-0">
+                <h2 class="title text-white geometric ls-1">@Model.Name</h2>
+                <span class="price d-block pb-3">
+                    <span class="money text-fusion work-sans fw-bold fs-3">
+                        $
+                        @if (Model.CampaignId == null)
+                        {
+                            @Model.Price
+                        }
+                        else
+                        {
+                            @(((Model.Price * (100 - Model.Campaign.DiscountPercent) / 100)).ToString("0.##"))
+                        }
+                    </span>
+                </span>
+                <span class="text-white d-block pb-3 fs-6 work-sans ">
+                    SKU: <span>@Model.ImageUrl.Substring(5, 7)</span>
+                </span>
+
+
+                <span class="text-white d-block pb-3 fs-6 work-sans ">
+                    Availability: <span>@Model.Stock left in stock</span>
+                </span>
+                <p class="description text-white">
+                    @Model.Description
+                </p>
+                <ul class="list-unstyled text-white">
+                    <li class="">
+                        <span class="label">Book Name:</span>
+                        <span class="desc">@Model.Name</span>
+                    </li>
+                    <li>
+                        <span class="label">Author Name</span>
+                        <span class="desc">
+                            @foreach (var item in Model.AuthorBooks)
+                            {
+                                <a href="" class="text-decoration-none text-white hover2 t-5" title="Vendor 11">@item.Author.Name</a>
+                            }
+                        </span>
+                    </li>
+                    <li>
+                        <span class="label">Product Type</span>
+                        <span class="desc">
+                            @foreach (var item in Model.BookTypes)
+                            {
+                                <a href="" class="text-decoration-none text-white hover2 t-5" title="Type 11">@item.ProductType.Name</a>
+
+                            }
+                        </span>
+                    </li>
+                    <li>
+                        <span class="label">Item Publish Date</span>
+                        <span class="desc">@Model.CreatedTime.ToString("yyyy/ MM/ dd")</span>
+                    </li>
+                </ul>
+
+
+                <div class="pro-details-quality py-4">
+                    <div class="quickview-plus-minus d-flex align-items-center pt-4">
+                        <div class="cart-plus-minus border py-3 d-flex justify-content-around align-items-center w-80">
+                            <div class="minus text-white fw-bold" style="cursor: pointer;">-</div>
+                            <input type="text" id="ival" value="1" name="quantity" class="bg-transparent border-0 w-24 text-white" style="outline: none;">
+                            <div class="plus text-white fw-bold" style="cursor: pointer;">+</div>
+                        </div>
+                        <div class="quickview-btn-cart ps-4">
+                            <button class="bg-grey2 input-border tocart text-uppercase text-white work-sans px-5 py-3 hover3 t-5 " style="outline: none;">Add to Cart</button>
+                        </div>
+                    </div>
+                    <input type="hidden" value="@Model.Id" id="bookid">
+                </div>
+                <div class="pro-details-meta pt-4 text-white">
+                    <span class="me-2 work-sans">Categories:</span>
+                    @foreach (var item in Model.BookCategories)
+                    {
+                        <a href="" class="text-decoration-none text-white hover2 work-sans t-5">@item.Category.Name</a>
+
+                    }
+                </div>
+                <div class="pro-details-meta pt-4 text-white">
+                    <span class="me-2 work-sans">Tags:</span>
+                    @foreach (var item in Model.BookTags)
+                    {
+
+                        <a href="/blog/blogtag/@item.Tag.Id" class="text-decoration-none text-white hover2 work-sans t-5">@item.Tag.Name</a>
+                    }
+                </div>
+                <!-- Share -->
+                <div class="share-icons text-white  py-4">
+                    <span class="me-2 work-sans">Share:</span>
+                    <a href="https://www.facebook.com/" class="text-decoration-none bg-facebook ps-2 br-5 pe-1 text-black" target="_blank">
+                        <i class="fa-brands fa-facebook-f "></i>
+                    </a>
+                    <a href="https://www.twitter.com/" class="ms-2 text-decoration-none bg-twitter ps-1 br-5  text-black" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.pinterest.com/" class="ms-2 text-decoration-none bg-pinterest ps-2 br-5 pe-1 text-black" target="_blank">
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====== Detail-Area End ======-->
+<!--====== Related Products Start ======-->
+<div class="py-5">
+    <div class="container">
+        <div class="text-center py-5">
+            <h2 class="text-white work-sans">Related Products</h2>
+            <p class="text-white work-sans">Contrary to popular belief, Lorem Ipsum is not simply random.</p>
+        </div>
+
+        <div class="">
+            <div class="container position-relative olo1">
+                <div class="row featured-collections-slider">
+                    @foreach (var item in ViewBag.RelatedBooks)
+                    {
+                        <div class="">
+                            <div class="input-border product-image me-4 position-relative ">
+                                <a href="/shop/detail/@item.Id">
+                                    <img src="~/assets/img/feature-collection/@item.ImageUrl" class="w-100" alt="">
+                                </a>
+                                <h4 class="title fs-6 fs-sm-12 fs-sm-12 ls-1">
+                                    <a href="/shop/detail/@item.Id" class="text-decoration-none text-white  ps-3 work-sans hover2 t-5 geometric">@item.Name</a>
+                                </h4>
+                                <span class="discounted-price">
+                                    @if (item.CampaignId != null)
+                                    {
+                                        <span class="money text-decoration-line-through ps-3  text-white">$@item.Price</span>
+                                    }
+                                </span>
+
+                                <span class="price">
+                                    @if (item.CampaignId != null)
+                                    {
+                                        <span class="money text-fusion ps-3 fw-bold fs-4">$@(((item.Price * (100 - item.Campaign.DiscountPercent) / 100)).ToString("0.##"))</span>
+
+                                    }
+                                    else
+                                    {
+                                        <span class="money text-fusion ps-3 fw-bold fs-4">$@item.Price</span>
+
+                                    }
+                                </span>
+                                <span class="stars ps-3 pt-2 pb-3 d-block">
+                                    <i class="fa-regular fa-star text-yellow"></i>
+                                    <i class="fa-regular fa-star text-yellow"></i>
+                                    <i class="fa-regular fa-star text-yellow"></i>
+                                    <i class="fa-regular fa-star text-yellow"></i>
+                                    <i class="fa-regular fa-star text-yellow"></i>
+                                </span>
+                                <div class="ht-product-action ">
+                                    <ul class="list-unstyled d-flex align-items-center justify-content-center pt-3">
+                                        <li class=" ">
+                                            <a class="text-decoration-none hover2 t-5 text-white productModalBtn" data-modal asp-controller="shop" asp-action="modal" asp-route-id="@item.Id" id="@item.Id">
+                                                <i class="fas fa-search fs-4" style="cursor: pointer;"></i>
+                                            </a>
+                                        </li>
+                                        <li class="ps-4 ">
+                                            <a class="text-decoration-none hover2 t-5 text-white">
+                                                <i class="las la-shopping-bag fs-4" style="cursor: pointer;"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                @if (item.CampaignId != null)
+                                {
+                                    <div class="sale">
+                                        <span class="bg-fusion px-3  text-white d-flex justify-content-center align-items-center mt-sm-3 mt-2 fs-sm-12 work-sans br-50">-@item.Campaign.DiscountPercent%</span>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="prev-collection hover3 t-5 pa-col ">
+                    <i class="fa-solid fa-chevron-left  work-sans" style="cursor: pointer;"></i>
+                </div>
+                <div class="next-collection hover3 t-5  pa1-col">
+                    <i class="fa-solid fa-chevron-right work-sans" style="cursor: pointer;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--====== Related Products End ======-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<script>
+    $(document).on("click", ".tocart", function (e) {
+        var inputString = $("#ival");
+        var elmId = $("#bookid");
+        var base = window.location.origin;
+        var url = `${base}/basket/add/${$(elmId).val()}?count=${$(inputString).val()} `
+        window.location.replace(url)
+    })
+</script>

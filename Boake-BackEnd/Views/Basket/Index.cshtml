@@ -1,0 +1,398 @@
+﻿@model OrderVM
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    decimal totalprice = 0;
+}
+
+<!--====== Breadcrumb-Area Start ======-->
+
+<section class="breadcrumb-area py-5 py-sm-0">
+    <div class=" bg-shade text-center py-4">
+        <a href="/home/index" class="  text-decoration-none text-white work-sans hover2 t-5">HOME </a>
+        <span class=" text-white">/</span>
+        <span class=" text-white work-sans">YOUR SHOPPING CART</span>
+    </div>
+</section>
+
+<!--====== Breadcrumb-Area End ======-->
+<!--====== Cart-Area Start ======-->
+<div class="cart-area pb-5">
+    <div class="container">
+        <form class="cart cart-desktop-device d-sm-block d-none">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <div class="cart-table table-responsive table-content cart-table-content">
+                        @if (Model.BasketItems.Count == 0)
+                        {
+                            <span class="text-yellow">Your Cart Is Empty <a href="/shop/index" class="text-decoration-none text-white hover2 t-5" >Go to Shopping!</a></span>
+                        }
+                        else
+                        {
+                            <table>
+                                <thead class="text-white">
+                                    <tr>
+                                        <th class="pro-thumbnail work-sans">Image</th>
+                                        <th class="pro-title work-sans">Product</th>
+                                        <th class="pro-price work-sans">Price</th>
+                                        <th class="pro-quantity work-sans">Quantity</th>
+                                        <th class="pro-subtotal work-sans">Total</th>
+                                        <th class="pro-remove work-sans">Remove</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-white">
+                                    @Model.BasketItems.Count()
+                                    @foreach (var item in Model.BasketItems)
+                                    {
+                                        @*<span style="display:none">@(totalprice += item.Count * item.Book.Price)</span>*@
+                                        <span style="display:none">@(totalprice += item.Book.CampaignId == null ? item.Count * item.Book.Price : item.Count * item.Book.Price * (100 - item.Book.Campaign.DiscountPercent) / 100)</span>
+
+                                        <tr>
+                                            <td class="pro-thumbnail">
+                                                <a href="/shop/detail/@item.Book.Id">
+                                                    <img src="~/assets/img/feature-collection/@item.Book.ImageUrl" class="w-100" alt="@item.Book.Name">
+                                                </a>
+                                            </td>
+                                            <td class="pro-title">
+                                                <a href="/shop/detail/@item.Book.Id" class="text-decoration-none text-white work-sans">@item.Book.Name</a>
+
+                                            </td>
+                                            <td class="pro-price">
+                                                <span class="amount">
+                                                    <span>$</span><span class="money">
+                                                        @if (item.Book.CampaignId == null)
+                                                        {
+                                                            @item.Book.Price
+                                                        }
+                                                        else
+                                                        {
+                                                            @((item.Book.Price * (100 - item.Book.Campaign.DiscountPercent) / 100))
+                                                        }
+                                                    </span>
+
+
+                                                </span>
+                                            </td>
+                                            <td class="product-quantity ">
+                                                <div class="quickview-plus-minus d-flex justify-content-center align-items-center pt-4">
+                                                    <div class="cart-plus-minus border d-flex justify-content-around align-items-center w-80">
+                                                        <div data-id="@item.Book.Id" class="minus down text-white fw-bold" style="cursor: pointer;">-</div>
+                                                        <span class="bg-transparent inp-value border-0 w-24 text-white" style="outline: none;">@item.Count</span>
+                                                        @*<input class="bg-transparent inp-value border-0 w-24 text-white" style="outline: none;">*@
+                                                        <div data-id="@item.Book.Id" class="plus up text-white fw-bold" style="cursor: pointer;">+</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="pro-subtotal">
+                                                <span>$</span><span class=" money-t" data-id="@item.Book.Id">
+                                                    @if (item.Book.CampaignId == null)
+                                                    {
+                                                        @((item.Book.Price * item.Count))
+
+                                                    }
+                                                    else
+                                                    {
+                                                        @(((item.Book.Price * (100 - item.Book.Campaign.DiscountPercent) / 100) * item.Count).ToString("f2"))
+
+                                                    }
+
+                                                </span>
+                                            </td>
+                                            <td class="product-remove">
+                                                <a asp-controller="basket" asp-action="remove" asp-route-id="@item.Book.Id" class="text-decoration-none delete text-white hover2 t-5 ps-4">
+                                                    <i class="fa-regular fa-circle-xmark"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                    </div>
+                </div>
+                <div class="col-lg-12 pt-5 ">
+                    <div class="cart-shiping-update-wrapper row align-items-center ">
+                        <div class="col-lg-6 col-12">
+                            <div class="cart-shiping-update">
+                                <a href="/shop" class="fw-semibold border text-white hover3 t-5 text-uppercase px-5 py-3 text-decoration-none">Continue Shopping</a>
+                            </div>
+                        </div>
+                        @if (Model.BasketItems.Count != 0)
+                        {
+                            <div class="col-lg-6 text-end col-12 pt-5 pt-sm-0">
+                                <div class="cart-clear d-flex justify-content-end align-items-center">
+                                    <a href="/basket/removeall" class="text-decoration-none ms-5 hover3 t-5 fw-semibold text-white text-uppercase bg-transparent border px-5 py-3">Clear Cart</a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-lg-12 pt-5">
+                    <div class="cart-payment">
+                        <div class="row">
+
+                            <div class="col-lg-12">
+                                <div class="cart-total border px-3 ">
+                                    <h3 class="text-white pt-3">Cart Totals</h3>
+                                    <table class="text-white">
+                                        <tbody>
+
+                                            <tr class="order-total">
+                                                <th class="">Total</th>
+                                                <td>
+                                                    <strong>
+                                                        <span class="amount">
+                                                            <span id="bk-cart-subtotal-price">
+                                                                $<span class="money total_price">@totalprice</span>
+                                                            </span>
+                                                        </span>
+                                                    </strong>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="proceed-to-checkout">
+                                        <a href="/basket/checkout" type="submit" class="bg-grey px-3 py-2 my-3 work-sans hover3 text-white t-5 border-0" style="outline:none;text-decoration:none;" name="checkout">Proceed to Checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <!-- Mobile -->
+        <form action="" method="post" novalidate="" class="cart cart-mobile-device d-block d-sm-none">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    @if (Model.BasketItems.Count == 0)
+                    {
+                        <span class="text-yellow">Your Cart Is Empty <a href="/shop/index" class="text-decoration-none text-white hover2 t-5">Go to Shopping!</a></span>
+                    }
+                    else
+                    {
+                        foreach (var item in Model.BasketItems)
+                        {
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="pro-thumbnail position-relative border px-3 py-2">
+                                        <a href="/shop/detail/@item.Book.Id">
+                                            <img src="~/assets/img/feature-collection/@item.Book.ImageUrl" class="w-100" alt="@item.Book.Name">
+                                        </a>
+                                        <a asp-controller="basket" asp-action="remove" asp-route-id="@item.Book.Id" class="remove-icon delete ">
+                                            <i class="fa-solid fa-xmark text-white"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="pro-title">
+                                        <a href="/shop/detail/@item.Book.Id" class="text-decoration-none text-white work-sans">
+                                            @item.Book.Name
+                                        </a>
+                                    </div>
+                                    <div class="price-and-quantity d-flex align-items-center justify-content-between pt-4">
+                                        <div class="pro-price">
+                                            <span class="amount text-white">
+                                                <span class="money">
+                                                    @if (item.Book.CampaignId == null)
+                                                    {
+                                                        @item.Book.Price
+                                                    }
+                                                    else
+                                                    {
+                                                        @((item.Book.Price * (100 - item.Book.Campaign.DiscountPercent) / 100))
+                                                    }
+                                                </span>
+                                            </span>
+                                        </div>
+                                        <div class="pro-quantity">
+                                            <div class="quickview-plus-minus d-flex align-items-center ">
+                                                <div class="cart-plus-minus border d-flex justify-content-around align-items-center w-80">
+                                                    <div data-id="@item.Book.Id" class="minus down  text-white fw-bold" style="cursor: pointer;">-</div>
+                                                    <span class="bg-transparent inp-value border-0 w-24 text-white" style="outline: none;">@item.Count</span>
+                                                    <div data-id="@item.Book.Id" class="plus up  text-white fw-bold" style="cursor: pointer;">+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pro-subtotal text-white work-sans pt-4">
+                                        <strong>Total:</strong>
+                                        <span class=" money-t" data-id="@item.Book.Id">
+                                            @if (item.Book.CampaignId == null)
+                                            {
+                                                @((item.Book.Price * item.Count))
+
+                                            }
+                                            else
+                                            {
+                                                @(((item.Book.Price * (100 - item.Book.Campaign.DiscountPercent) / 100) * item.Count).ToString("f2"))
+
+                                            }
+
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+                <div class="col-lg-12 col-12 mt-5">
+                    <div class="cart-buttons">
+                        <a class="text-decoration-none mt-4 text-center text-black work-sans bg-grey d-block w-100 py-2" href="/shop">Continue Shopping</a>
+                        @if (Model.BasketItems.Count != 0)
+                        {
+                            <a href="/basket/removeall" class="text-decoration-none mt-4 text-center text-black work-sans bg-grey d-block w-100 py-2" >Clear Cart</a>
+                        }
+                    </div>
+                </div>
+                <div class="col-lg-12 col-12 mt-5">
+                    <div class="cart-payment">
+                        <div class="row">
+                            <div class="col-12 mt-5 ">
+                                <div class="cart-total border px-3">
+                                    <h3 class="text-white pt-4 work-sans">Cart Totals</h3>
+                                    <table>
+                                        <tbody class="text-white">
+                                            <tr class="order-total">
+                                                <th>Total</th>
+                                                <td>
+                                                    <strong>
+                                                        <span class="amount">
+                                                            <span id="bk-cart-subtotal-price">
+                                                                <span class="money total_price">@totalprice</span>
+                                                            </span>
+                                                        </span>
+                                                    </strong>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="proceed-to-checkout py-4">
+                                        <a href="/basket/checkout" type="submit" class="bg-grey border-0 hover2 t-5 px-4 py-2 work-sans" style="outline:none; text-decoration:none;" name="checkout">Proceed to Checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!--====== Cart-Area End ======-->
+@section Scripts{
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(".delete").click(function (e) {
+            e.preventDefault()
+            console.log($(this).attr("href"))
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'Xəbərdarlıq',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    var link = $(this).attr("href");
+                    fetch(link).then(response => response.json()).then(data => {
+                        if (data.status == 200) {
+                            location.reload(true)
+                        } else {
+                            Swal.fire(
+                                'Not found!',
+                                'The file may be deleted.',
+                                'Failed attempt'
+                            )
+                        }
+                    });
+                }
+            })
+        })
+    </script>
+    <script>
+        // Input count
+        var myInp = document.querySelectorAll(".inp-value");
+        var increaseBtn = document.querySelectorAll(".up");
+        var decreaseBtn = document.querySelectorAll(".down");
+        for (let elem of decreaseBtn) {
+            elem.addEventListener("click", function (e) {
+                e.preventDefault()
+                countst = this.nextElementSibling.innerText
+                countstn = Number(countst)
+                if (countstn > 1) {
+                    count = this.nextElementSibling.innerText
+                    countn = Number(count)
+                    countn -= 1;
+                    this.nextElementSibling.innerText = countn;
+                }
+            })
+        }
+        for (let elem of increaseBtn) {
+            elem.addEventListener("click", function (e) {
+                e.preventDefault()
+                count = this.previousElementSibling.innerText
+                countn = Number(count)
+                countn += 1;
+                this.previousElementSibling.innerText = countn;
+            })
+        }
+        $(document).ready(function () {
+            $(document).on("click", ".down", function (e) {
+                e.preventDefault();
+                var id = $(this).attr("data-id")
+                var total = document.querySelector(".total_price")
+                var money = document.querySelectorAll(".money-t")
+                console.log(id)
+                $.ajax({
+                    url: "/basket/minus",
+                    data: {
+                        id: id
+                    },
+                    type: "post",
+                    datatype: "json",
+                    success: function (data) {
+                        money.forEach(mon => {
+                            if (id == mon.getAttribute("data-id")) {
+                                mon.innerHTML = data.price
+                                console.log(data.price)
+                            }
+                        })
+                        total.innerHTML = `${data.totalPrice}`
+                    }
+                })
+            })
+            $(document).on("click", ".up", function (e) {
+                e.preventDefault();
+                var id = $(this).attr("data-id")
+                var total = document.querySelector(".total_price")
+                var money = document.querySelectorAll(".money-t")
+                console.log(id)
+                $.ajax({
+                    url: "/basket/plus",
+                    data: {
+                        id: id
+                    },
+                    type: "post",
+                    datatype: "json",
+                    success: function (data) {
+                        money.forEach(mon => {
+                            if (id == mon.getAttribute("data-id")) {
+                                mon.innerHTML = data.price
+                                console.log(data.price)
+                            }
+                        })
+                        total.innerHTML = `${data.totalPrice}`
+                    }
+                })
+            })
+        })
+    </script>
+    
+}

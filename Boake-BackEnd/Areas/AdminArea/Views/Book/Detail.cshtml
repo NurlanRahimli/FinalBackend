@@ -1,0 +1,44 @@
+﻿@model Book
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/AdminArea/Views/Shared/_AdminLayout.cshtml";
+  
+}
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-secondary rounded h-100 p-4">
+                <h6 class="mb-4">Basic Table</h6>
+                <a asp-area="AdminArea" asp-controller="book" asp-action="Create" class="btn btn-success">Create</a>
+                <table class="table">
+                    <thead>
+                        <tr> 
+                            <th scope="col">Image</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Delete</th>
+                            <th scope="col">Update</th>
+                            <th scope="col">#</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                            <tr> 
+                                <td><img style="width:100px;" src="~/assets/img/feature-collection/@Model.ImageUrl" /></td>
+                                <td>@Model.Name</td>
+
+                                <td>@Model.Description</td>
+                                <td><a asp-area="adminarea" asp-controller="book" asp-action="delete" asp-route-id="@Model.Id" class="btn btn-danger  ">Delete</a></td>
+                                <td><a asp-area="adminarea" asp-controller="book" asp-action="edit" asp-route-id="@Model.Id" class="btn btn-warning  ">Edit</a></td>
+                            <td><a asp-area="adminarea" asp-controller="book" asp-action="index"   class="btn btn-warning  ">Back</a></td>
+
+                        </tr>
+                        
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
