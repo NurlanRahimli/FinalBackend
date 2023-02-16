@@ -63,7 +63,8 @@ namespace Boake_BackEnd.Controllers
             if (!ModelState.IsValid) return View();
 
             AppUser user = new AppUser
-            {UserName=register.Username,
+            {
+                UserName=register.Username,
                 Firstname = register.Firstname,
                 Lastname=register.Lastname,
                 Email = register.Email
